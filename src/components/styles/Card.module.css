@@ -1,0 +1,28 @@
+.card {
+    color: black;
+    align-items: center;
+    border: 8px solid rgb(246, 246, 246);
+    border-radius: 20px;
+    width: 300px;
+    background: linear-gradient(to bottom, #9795ef, #f9c5d1);
+    margin: 16px;
+    opacity: 0.9;
+    transition: transform .1s;
+    
+}
+
+.card:hover {
+    transform: scale(1.1)
+}
+.btn  {
+    background-color: #f9c5d1;
+    background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+    border-style:groove
+
+}
+
+.btn:hover {
+    background-color: #f9c1b1;
+    background-image: linear-gradient(315deg, #f9c1b1 0%, #fb8085 74%);  
+    border-color: white;
+}
